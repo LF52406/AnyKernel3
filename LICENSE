@@ -153,6 +153,9 @@ zstd: BSD License
     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+    Source not required, however, respective source is provided:
+    https://github.com/bachnxuan/zstd-build
+
 
 ## Optional Binary Licenses:
 
