@@ -35,12 +35,12 @@ no_magisk_check=1
 ui_print "[*] Verifying kernel image"
 "$BIN/busybox" sha256sum -cs Image.zst.sha256 \
   || abort "[!] SHA256 mismatch"
-ui_print "[🗸] SHA256 OK"
+ui_print "[+] SHA256 OK"
 
 ui_print "[*] Unpacking kernel image"
 "$BIN/zstd" -d -q --no-progress -o "$AKHOME/Image" "$AKHOME/Image.zst" \
   || abort "[!] Decompress failed"
-ui_print "[🗸] Unpacked kernel successfully"
+ui_print "[+] Unpacked kernel successfully"
 
 # boot install
 split_boot
