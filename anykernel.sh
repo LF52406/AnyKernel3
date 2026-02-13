@@ -32,15 +32,15 @@ no_magisk_check=1
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh
 
-ui_print "[INFO] Verifying kernel image"
+ui_print "[*] Verifying kernel image"
 "$BIN/busybox" sha256sum -cs Image.zst.sha256 \
-  || abort "[ERR] SHA256 mismatch"
+  || abort "[!] SHA256 mismatch"
+ui_print "[🗸] SHA256 OK"
 
-ui_print "[INFO] Unpacking kernel image"
+ui_print "[*] Unpacking kernel image"
 "$BIN/zstd" -d -q --no-progress -o "$AKHOME/Image" "$AKHOME/Image.zst" \
-  || abort "[ERR] Decompress failed"
-
-ui_print "[SUCCESS] Unpacked kernel successfully"
+  || abort "[!] Decompress failed"
+ui_print "[🗸] Unpacked kernel successfully"
 
 # boot install
 split_boot
