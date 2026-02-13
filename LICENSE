@@ -51,8 +51,8 @@ magiskboot, magiskpolicy (Magisk): GPLv3+
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-    Per Section 6(d), official compiled binaries from unmodified source:
-    https://github.com/topjohnwu/Magisk
+    Source not required, however, respective source is provided:
+    https://github.com/topjohnwu/Magisk/actions/runs/21770777788
 
 busybox: GPLv2
 
@@ -70,10 +70,8 @@ busybox: GPLv2
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-    Per Section 3(b), self-compiled binary from modified source:
-    https://git.busybox.net/busybox/
-    https://github.com/osm0sis/android-busybox-ndk
-    (pre-patched source tree used to build available upon request)
+    Source not required, however, respective source is provided:
+    https://github.com/topjohnwu/Magisk/actions/runs/21770777788
 
 lptools_static: Apache License 2.0
 fec: Apache License 2.0
@@ -273,4 +271,3 @@ rkcrc: BSD 2-Clause License
 
 osm0sis' Odds and Ends Thread - Knowledge Base:
 https://forum.xda-developers.com/t/tools-zips-scripts-osm0sis-odds-and-ends-multiple-devices-platforms.2239421/#post-53554719
-
