@@ -5,16 +5,12 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ESK Kernel for xaga(in)/xagapro(in) by bachxuan @ esk-project
+kernel.string=ESK Kernel by bachxuan @ esk-project
 do.devicecheck=1
 do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=xaga
-device.name2=xagain
-device.name3=xagapro
-device.name4=xagaproin
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
